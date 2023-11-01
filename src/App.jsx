@@ -19,7 +19,7 @@ function App() {
   console.log(url);
   useEffect(() => {
     fetchApiConfig();
-    // genresCall();
+    genresCall();
   }, []);
 
   const fetchApiConfig = () => {
